@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navGradient {
+  background: linear-gradient(to right, #591bff, #9d82e5);
+}
+
+.btnGradient {
+  background: linear-gradient(to right, #7342f9, #8053fa);
+}
+
+.bannerBG {
+  background-image: url("./assets/bannerBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerGradient {
+  background: linear-gradient(to bottom, #111111, #4b2d9b);
+}
+
+.nagadGradient {
+  background: linear-gradient(to top, #ed1c24, #f7941d);
+}
+
+.html {
+  font-family: "Roboto", sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
